@@ -2,10 +2,10 @@ FROM ubuntu:bionic
 LABEL maintainer="Bayu Adin H <bayu.adin.h@mail.ugm.ac.id>"
 LABEL description="Redis with latest Alphine"
 
-ENV MYSQL_ROOTPW RootBlibli100@
+ENV MYSQL_ROOTPW RootShopee100@
 ENV MYSQL_DB wordpress
-ENV MYSQL_USER blibli
-ENV MYSQL_USER_PW UserBlibli100@
+ENV MYSQL_USER Shopee
+ENV MYSQL_USER_PW UserShopee100@
 
 RUN groupadd -r mysql && useradd -r -g mysql mysql
 
