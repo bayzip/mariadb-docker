@@ -1,11 +1,11 @@
 FROM ubuntu:bionic
-LABEL maintainer="Bayu Adin H <bayu.adin.h@mail.ugm.ac.id>"
-LABEL description="Redis with latest Alphine"
+LABEL maintainer="Bayu Adin H <bayuadinhartomo@gmail.com>"
+LABEL description="MariaDB using UBUNTU Bionic"
 
-ENV MYSQL_ROOTPW RootShopee100@
+ENV MYSQL_ROOTPW RootDatabase100@
 ENV MYSQL_DB wordpress
-ENV MYSQL_USER Shopee
-ENV MYSQL_USER_PW UserShopee100@
+ENV MYSQL_USER userDB
+ENV MYSQL_USER_PW userDBPass100@
 
 RUN groupadd -r mysql && useradd -r -g mysql mysql
 
