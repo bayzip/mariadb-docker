@@ -9,7 +9,8 @@ ENV MYSQL_USER_PW userDBPass100@
 
 RUN groupadd -r mysql && useradd -r -g mysql mysql
 
-RUN apt-get -y update && \
+RUN apt-get -y update && \ 
+	apt-get install -y --no-install-recommends apt-utils && \
 	apt-get remove --purge mariadb-server mariadb-client && \
 	apt-get autoremove && \
 	apt-get autoclean && \
