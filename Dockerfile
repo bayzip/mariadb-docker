@@ -2,7 +2,7 @@ FROM ubuntu:bionic
 LABEL maintainer="Bayu Adin H <bayuadinhartomo@gmail.com>"
 LABEL description="MariaDB using UBUNTU Bionic"
 
-ENV MYSQL_ROOTPW RootDatabase100@
+ENV MYSQL_ROOTPW RootPWDatabase100@
 ENV MYSQL_DB wordpress
 ENV MYSQL_USER userDB
 ENV MYSQL_USER_PW userDBPass100@
